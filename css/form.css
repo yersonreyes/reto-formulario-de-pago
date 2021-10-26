@@ -1,0 +1,119 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  inline-size: 100%;
+  block-size: 100%;
+  flex: 1;
+}
+
+.form-item h3 {
+  margin: 0;
+  font: var(--text1regular);
+}
+
+.form-item-input {
+  padding-inline: 0.75rem;
+  padding-block: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 0.625rem;
+  border: none;
+  font: var(--text1regular);
+  outline: none;
+  border: 1px solid var(--grey2);
+}
+.form-credit-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-end: 0.75rem;
+  border: 1px solid var(--grey2);
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+
+.credit-input {
+  padding-inline: 0.75rem;
+  padding-block: 0.5rem;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  flex: 1;
+  font: var(--text1regular);
+}
+
+.shadow {
+  box-shadow: 0px 4px 18px rgba(158, 168, 189, 0.31);
+  border: none;
+}
+
+.form-content {
+  margin-block-start: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  inline-size: 100%;
+  block-size: 100%;
+  gap: 1.5rem;
+}
+.form-content2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  inline-size: 50%;
+}
+.grey {
+  background: var(--grey2) !important;
+  opacity: 0.8 !important;
+}
+
+.date-inputs {
+  display: flex;
+  inline-size: 128px;
+  padding-inline: 0.75rem;
+  padding-block: 0.35rem;
+  box-sizing: border-box;
+  border-radius: 0.625rem;
+  border: none;
+  border: 1px solid var(--grey2);
+  gap: 0.25rem;
+}
+
+.date-inputs p {
+  margin: 0;
+  color: var(--grey);
+}
+
+.date-inputs input {
+  margin: 0;
+  padding: 0;
+  inline-size: 100%;
+  border: none;
+  outline: none;
+  font: var(--text1regular);
+}
+
+.input-cvv {
+  display: flex;
+  inline-size: 128px;
+  padding-inline: 0.75rem;
+  padding-block: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 0.625rem;
+  border: none;
+  border: 1px solid var(--grey2);
+  gap: 0.25rem;
+}
+
+.input-cvv input {
+  display: flex;
+  inline-size: 80px;
+  border: none;
+  outline: none;
+}

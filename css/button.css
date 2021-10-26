@@ -1,0 +1,17 @@
+.button {
+  padding-block: 0.75rem;
+  border-radius: 0.625rem;
+  border: none;
+  cursor: pointer;
+  background: var(--primary);
+  color: var(--white);
+  font: var(--text1regular);
+}
+
+.button.opacity {
+  opacity: 0.2;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
